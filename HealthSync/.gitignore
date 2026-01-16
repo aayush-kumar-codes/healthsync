@@ -1,0 +1,39 @@
+# HealthSync/.gitignore
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables
+.env
+
+# Ignore Node modules
+node_modules/
+
+# Ignore build output
+.next/
+out/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore coverage reports
+coverage/
+*.cover
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore other sensitive files
+*.pem
+*.key
+*.crt
